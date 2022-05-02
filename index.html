@@ -27,6 +27,16 @@
         alias: {
           "/.*/_sidebar.md": "/_sidebar.md",
         },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (content) {
+              // Invoked each time before parsing the Markdown file.
+              // ...
+              console.log(hook, vm, content);
+              return content;
+            });
+          },
+        ],
       };
     </script>
     <!-- Docsify v4 -->
