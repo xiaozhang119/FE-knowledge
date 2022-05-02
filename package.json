@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foolproof119/FE-knowledge.git"
+    "url": "git+https://github.com/xiaozhang119/FE-knowledge.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/foolproof119/FE-knowledge/issues"
+    "url": "https://github.com/xiaozhang119/FE-knowledge/issues"
   },
-  "homepage": "https://github.com/foolproof119/FE-knowledge#readme",
+  "homepage": "https://github.com/xiaozhang119/FE-knowledge#readme",
   "dependencies": {
     "docsify-cli": "^4.4.4",
     "lodash": "^4.17.21"
