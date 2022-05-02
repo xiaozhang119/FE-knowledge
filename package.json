@@ -1,0 +1,23 @@
+{
+  "name": "fe-knowledge",
+  "version": "1.0.0",
+  "description": "前端知识体系梳理笔记",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/.bin/docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foolproof119/FE-knowledge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foolproof119/FE-knowledge/issues"
+  },
+  "homepage": "https://github.com/foolproof119/FE-knowledge#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.4",
+    "lodash": "^4.17.21"
+  }
+}
