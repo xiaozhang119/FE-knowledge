@@ -21,7 +21,6 @@
         name: "FE-knowledge",
         repo: "",
         loadSidebar: true,
-        routerMode: "history",
         subMaxLevel: 2,
         auto2top: true,
         alias: {
@@ -29,10 +28,11 @@
         },
         plugins: [
           function (hook, vm) {
+            console.log(hook, vm);
             hook.beforeEach(function (content) {
               // Invoked each time before parsing the Markdown file.
               // ...
-              console.log(hook, vm, content);
+              console.log(content);
               return content;
             });
           },
