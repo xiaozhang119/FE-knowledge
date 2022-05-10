@@ -4,5 +4,6 @@
 
 - 前端面试题
   - [实现sum方法每次调用累加上次的计算结果](docs/interviewQuestion/sum.md)
-  - [回文字符串](docs/interviewQuestion/sum.md)
+
+  - [回文字符串](docs/palindrome/index.md)
 
