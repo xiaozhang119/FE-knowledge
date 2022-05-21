@@ -4,7 +4,7 @@
 
 - 前端面试题
 
-  - [实现 sum 方法每次调用累加上次的计算结果](docs/interviewQuestion/sum.md)
+  - [实现 sum 方法每次调用累加上次的计算结果](docs/interviewQuestion/sum.md) -[求点是否在圆内](docs/interviewQuestion/circle_distance.md)
 
 - 算法
 
